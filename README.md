@@ -5,7 +5,7 @@ How to use
 
 `pip install notify-run`
 
-`notify run register` -  This will show a link or a qr code, us it to register your device where you want your notifications.
+`notify-run register` -  This will show a link or a qr code, us it to register your device where you want your notifications.
 
 `pip install xlrd`
 
