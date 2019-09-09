@@ -6,10 +6,10 @@ wb = xlrd.open_workbook(location)  #opens the excel file
 sheet = wb.sheet_by_index(0) #gets the sheet number
 sheet.cell_value(0, 0) 
 notify = Notify() #used for notification in phones
-for i in range(5):
+for i in range(1, sheet.nrows):
     newList = sheet.row_values(i)
     toSend = newList[0] + ":" + newList[1]
     notify.send(toSend)
-    time.sleep(120)#wait for sometime before you send next
+    time.sleep(120)#wait for sometime  (2 mins here) before you send next word with meaning
 
 #notify.send('Test 1')
