@@ -16,3 +16,12 @@ Now once you're done with all this, just run `python sendVocab.py` or `python3 s
 ToDO:
 
 `Get a new excel sheet which has sentences as examples too`
+
+
+`V 2.0`
+
+`Randomized the words and made sure everday a different set of words is sent(40 at a time)`
+
+`Words will be send 40 at a time, and then the same 40 will be sent again and again for revision in the time span`
+
+`It starts at 10 in the morning and ends at around 8:30 evening to make sure even the revision of words is sent how many ever times in that gap, not necesarilly twice`
